@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Vampire the Masquerade Dice Generator</title>
+    <link href="./resources/vtmdice.css" type="text/css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap" rel="stylesheet">
+    
+
+</head>
+
+<body>
+
+<div class="app-container">
+    <header>
+        <div>
+            <div class="img-container">
+                <img class="logo" src="./resources/images/logo white.png">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="setup-area">
+
+            <div class="counter-container">
+
+                <div class="wrapper">
+
+                    <h2 class="stepper-name">Dicepool</h2>
+
+                    <div class="dicepool-stepper"> 
+                        <span id="next-dicepool" class="next"></span>
+                        <span id="previous-dicepool" class="previous"></span>
+                        <div id="regular-dicepool" class="number-box">
+                            <span id="dicepool-number">0</span>
+                        </div>
+                    </div>
+
+                </div>
+
+              
+
+                <div class="wrapper">
+
+                    <h2 class="stepper-name">Hunger</h2>
+
+                    <div class="dicepool-stepper"> 
+                        <span id="next-hunger-dicepool" class="next"></span>
+                        <span id="previous-hunger-dicepool" class="previous"></span>
+                        <div id="hunger-dicepool" class="number-box">
+                            <span id="hunger-dicepool-number">0</span>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <div id="diceroll-button" class="btn">
+                    Roll
+                </div>
+            </div>
+        
+        </section>
+            
+        <section class="diceroll-area">
+            <div class="dicebox">
+              <!-- <
+
+                <div class="dice-container regular-dice">
+                    <h2 class="dice-value"></h1>
+                </div>
+                
+                <div class="dice-container blood-dice">
+                    <h2 class="blood-dice-value"></h1>
+                </div>
+                <div class="dice-container blood-dice">
+                </div>
+                  -->
+            </div>
+        </section>
+
+        <section class="result area">
+            <div class="result-box">
+                <div class="result-message">
+                    <p class="result-message-paragraph"></p>
+                </div>
+                <div class="end-result">
+                    <p class="end-result-paragraph"></p>
+                </div>
+
+            </div>
+
+        </section>
+    </main>
+
+    
+
+    <footer>
+<!--To insert footer-->
+        <div class="footer">
+            <p>Vampire the Masquerade 5th Edition Dice Roller</p>
+            <p>2020</p>
+        </div>
+    </footer>
+</div>
+
+<script src="./resources/vtmdice.js"></script>
+</body>
+
+
+
+
+</html>
+
+
+
+ 
